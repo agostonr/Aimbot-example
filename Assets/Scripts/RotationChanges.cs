@@ -12,8 +12,5 @@ public struct RotationChanges
         PitchAdditionInDegrees = pitchAdditionInDegrees;
     }
 
-    /// <summary>
-    /// Returns an empty result. You can add this to your rotations as if they were actual populated values and they'll make no difference.
-    /// </summary>
     public static RotationChanges Empty => new RotationChanges();
 }
